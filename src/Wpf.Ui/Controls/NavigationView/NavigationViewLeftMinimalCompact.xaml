@@ -15,7 +15,6 @@
             <Border
                 x:Name="MainBorder"
                 Grid.Row="0"
-                MinWidth="310"
                 MinHeight="40"
                 Margin="0"
                 Padding="0"
