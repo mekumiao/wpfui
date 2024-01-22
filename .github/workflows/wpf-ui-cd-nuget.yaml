@@ -2,7 +2,7 @@ name: wpf-ui-cd-nuget
 
 on:
   push:
-    branches: [main]
+    branches: [dev]
 
   workflow_dispatch:
 
