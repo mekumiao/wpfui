@@ -34,5 +34,6 @@ jobs:
       - name: Publish the package to NuGet.org
         run: nuget push **\*.nupkg -NonInteractive -SkipDuplicate -Source 'https://api.nuget.org/v3/index.json'
 
-      - name: Publish the symbols to NuGet.org
-        run: nuget push **\*.snupkg -NonInteractive -SkipDuplicate -Source 'https://api.nuget.org/v3/index.json'
+    # 这句报错
+    #   - name: Publish the symbols to NuGet.org
+    #     run: nuget push **\*.snupkg -NonInteractive -SkipDuplicate -Source 'https://api.nuget.org/v3/index.json'
