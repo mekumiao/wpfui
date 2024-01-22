@@ -6,7 +6,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Wpf.Ui.Tray</RootNamespace>
     <AssemblyName>Wpf.Ui.Tray</AssemblyName>
-    <PackageId>WPF-UI.Tray</PackageId>
+    <PackageId>Mekumiao.WPF-UI.Tray</PackageId>
     <Product>Wpf.Ui.Tray</Product>
     <Title>Wpf.Ui.Tray</Title>
     <NeutralLanguage>en-US</NeutralLanguage>
