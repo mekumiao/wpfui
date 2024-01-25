@@ -16,7 +16,7 @@
         https://github.com/microsoft/microsoft-ui-xaml/blob/main/dev/CommonStyles/Common_themeresources_any.xaml
     -->
 
-    <Color x:Key="ApplicationBackgroundColor">#FFFAFAFA</Color>
+    <Color x:Key="ApplicationBackgroundColor">#FFF4FAFE</Color>
     <SolidColorBrush x:Key="ApplicationBackgroundBrush" Color="{StaticResource ApplicationBackgroundColor}" />
 
     <Color x:Key="KeyboardFocusBorderColor">#BE000000</Color>

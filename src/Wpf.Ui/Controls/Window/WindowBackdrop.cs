@@ -287,8 +287,7 @@ public static class WindowBackdrop
 
         if (windowSource?.RootVisual is System.Windows.Window window)
         {
-            var backgroundBrush = window.Resources["ApplicationBackgroundBrush"];
-
+            var backgroundBrush = Application.Current.Resources["ApplicationBackgroundBrush"];
             // Manual fallback
             if (backgroundBrush is not SolidColorBrush)
             {

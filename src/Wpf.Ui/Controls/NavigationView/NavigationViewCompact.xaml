@@ -409,7 +409,7 @@
                 Background="{DynamicResource NavigationViewContentBackground}"
                 BorderBrush="{DynamicResource NavigationViewContentGridBorderBrush}"
                 BorderThickness="1,1,0,0"
-                CornerRadius="8,0,0,0">
+                CornerRadius="0,0,0,0">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
