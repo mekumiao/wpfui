@@ -376,7 +376,15 @@ public class NavigationViewItem
             IsExpanded = !IsExpanded;
 
         if (TargetPageType is not null)
+        {
             navigationView.OnNavigationViewItemClick(this);
+        }
+        else if (HasMenuItems && navigationView.IsPaneOpen is false && MenuItems[0] is NavigationViewItem item)
+        {
+            // 收起菜单的情况下，跳转第一个Item
+            navigationView.OnNavigationViewItemClick(item);
+            return;
+        }
 
         base.OnClick();
     }
