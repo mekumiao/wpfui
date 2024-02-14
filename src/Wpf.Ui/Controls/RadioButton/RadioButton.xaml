@@ -53,7 +53,7 @@
                             <ColumnDefinition Width="20" />
                             <ColumnDefinition Width="*" />
                         </Grid.ColumnDefinitions>
-                        <Grid Height="32" VerticalAlignment="Top">
+                        <Grid Height="32" VerticalAlignment="Center">
                             <Ellipse
                                 x:Name="OuterEllipse"
                                 Width="{StaticResource RadioButtonOuterEllipseSize}"
