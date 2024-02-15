@@ -29,7 +29,7 @@
         <Setter Property="FontSize" Value="{DynamicResource ControlContentThemeFontSize}" />
         <Setter Property="FontWeight" Value="Normal" />
         <Setter Property="WindowStyle" Value="SingleBorderWindow" />
-        <Setter Property="AllowsTransparency" Value="False" />
+        <!--<Setter Property="AllowsTransparency" Value="False" />-->
         <Setter Property="ResizeMode" Value="CanResize" />
         <!--  The Display option casues a large aliasing effect  -->
         <!-- <Setter Property="TextOptions.TextFormattingMode" Value="Ideal" /> -->
