@@ -130,7 +130,7 @@ public class ClientAreaBorder : System.Windows.Controls.Border, IThemeControl
             return;
         }
 
-        ApplyDefaultWindowBorder();
+        //ApplyDefaultWindowBorder();
     }
 
     /// <inheritdoc />
@@ -155,7 +155,7 @@ public class ClientAreaBorder : System.Windows.Controls.Border, IThemeControl
 
         _oldWindow = newWindow;
 
-        ApplyDefaultWindowBorder();
+        //ApplyDefaultWindowBorder();
     }
 
     private void OnWindowClosing(object? sender, CancelEventArgs e)
